@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4678216193944715900
+--- !u!114 &-155456587962354188
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NormalMapShader
-  m_Shader: {fileID: -6465566751694194690, guid: 8954b708a6080bd499a546c00df9ba79,
+  m_Name: LavaNormalScrollingShader
+  m_Shader: {fileID: -6465566751694194690, guid: 2cd5f60f9932b0b429745c5119eaedd2,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -78,16 +78,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_22c09f442d8a4bb0a4cd9db53b84b414_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 7ee716da1d1ab694cb5e89476f743420, type: 3}
+    - _SampleTexture2D_429e4e92a8924f3b8db34ade9e3b5f38_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 258f355f05d0f1b4eb05b3726847e523, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_75a773d4bcce4a65b277aa09d62a1013_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: efd618322203dcd48b2f98be1807f26a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_db823385d37b4468b3f0ae7d53416e73_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: a4a7c55d2cbf3f84cb89b28868a4bddb, type: 3}
+    - _SampleTexture2D_748992ed7962460ab50fcfb79059c4ed_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f731fc17c3f4b9f47873a142364832b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -111,10 +107,8 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _BaseTileFactor: 1.02
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BlendTileFactor: 3.71
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -142,8 +136,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _blendNormalIntensity: 0.34
-    - _intensity: 1
+    - _speed: 0.25
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
