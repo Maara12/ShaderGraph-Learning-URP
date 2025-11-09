@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DepthWaterShader
-  m_Shader: {fileID: -6465566751694194690, guid: 18708f60f62d6bc45b7b6b6c8d043ed9,
+  m_Name: CrystalShader
+  m_Shader: {fileID: -6465566751694194690, guid: 5af9890a835db3644b0bff7b793ba2ae,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -93,7 +93,6 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth_Distance: 4.91
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -118,14 +117,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Depth_Color: {r: 0.45370036, g: 0.6732405, b: 0.7798742, a: 0}
+    - _Color: {r: 0, g: 0.16135885, b: 0.7798742, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShallowColor: {r: 0.3600925, g: 0.8223676, b: 0.9622642, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &901937753822078383
+--- !u!114 &1722957659030614596
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

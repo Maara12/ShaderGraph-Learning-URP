@@ -274,6 +274,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "de834384133a4de8b68ab1569fe21971"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "e592d9a2112b4676bb6579106eca46bf"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "deea4c79b8e04bba9fe2803ef22c40eb"
                 },
                 "m_SlotId": 1
@@ -518,7 +532,7 @@
     "m_ShaderOutputName": "Edge1",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.14000000059604646,
+        "x": 0.6399999856948853,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
@@ -693,8 +707,8 @@
     "m_ShaderOutputName": "Tiling",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0
+        "x": 5.0,
+        "y": 5.0
     },
     "m_DefaultValue": {
         "x": 1.0,
@@ -1430,7 +1444,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 2.440000057220459,
+        "e00": 24.5,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -1756,7 +1770,7 @@
     "m_ShaderOutputName": "Edge2",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 5.519999980926514,
+        "x": 6.170000076293945,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0
